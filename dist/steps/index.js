@@ -5,6 +5,14 @@ VantComponent({
         icon: String,
         steps: Array,
         active: Number,
+        space: {
+          type:String,
+          value: 'nbsp'
+        },
+        decode:{
+          type: Boolean,
+          value: false
+        },
         direction: {
             type: String,
             value: 'horizontal'
